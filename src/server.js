@@ -1,7 +1,7 @@
 const https = require("https");
 const http  = require("http");
 
-const SOURCE_URL  = "https://wtx.macminim6.online/v1/tx/sessions";
+const SOURCE_URL  = "https://wtx.tele68.com/v1/tx/lite-sessions?cp=R&cl=R&pf=web&at=405f18b5220fdd5674e8bb74bd0d5d14";
 const PORT        = process.env.PORT || 3000;
 const HISTORY_MAX = 500;
 
